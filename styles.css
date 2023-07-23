@@ -1,0 +1,55 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(66, 66, 66);
+  color: aliceblue;
+  font-family: Roboto, sans-serif;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+
+button {
+  padding: 10px;
+  border-radius: 18px;
+  border: 0px solid rgb(29, 97, 186);
+  background-color: rgb(37, 131, 255);
+  color: aliceblue;
+}
+
+.player,
+.computer {
+  display: flex;
+  gap: 10px;
+}
+
+.pointsContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+img {
+  background-color: transparent;
+  width: 100px;
+  height: 100px;
+}
+.results {
+  display: flex;
+  gap: 28px;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.result {
+  width: 220px;
+  text-align: center;
+}
